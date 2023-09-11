@@ -28,3 +28,4 @@ print('\'')
 print('\x33') # karakter kód az 'x' után  
 
 
+
