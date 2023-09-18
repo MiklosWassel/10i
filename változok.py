@@ -103,7 +103,7 @@ szoveg2="kutya"
 sz = szoveg +"\n"+ szoveg2
 print(sz)
 
-
+print("1\t2\t3\n4\t5\t6\t\n7\t8\t9")
 
 
 
