@@ -94,7 +94,7 @@ if maradek2 or maradek3 == 0 :
 else:
     print("Se kettővel vagy hárommal osztható")
 '''
-if 1 :
+if 1.9 :
     print(1)
 if 0 :
      print(0)
