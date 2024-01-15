@@ -23,11 +23,14 @@ def megszamol(listam):
 print(f"{megszamol(lista)} Volt 50-nél nagyobb")
 
 # eldöntés
-volt = False
-for elem in lista:
-    if elem > 90:
-        votl = True
-if volt:
+def eldontes(lista):
+    volt = False
+    for elem in lista:
+        if elem > 90:
+            volt = True
+    return volt
+
+if eldontes:
     print("volt")
 else:
     print("Nem volt 90-nél nagyobb")
