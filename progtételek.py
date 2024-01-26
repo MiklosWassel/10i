@@ -36,7 +36,7 @@ else:
     print("Nem volt 90-nél nagyobb")
 
 # eldöntés v2
-    volt = False
+volt = False
 for elem in lista:
     if elem > 90:
         votl = True
@@ -59,3 +59,30 @@ if volt:
     print("volt")
 else:
     print("Nem volt 90-nél nagyobb")
+
+# összegzés    
+osszeg = 0
+
+def osszegzes(l):
+    osszeg = 0
+    for elem in l:
+        osszeg += elem
+    return osszeg
+
+print(osszegzes(lista))
+print(osszegzes([1,2,3,4,4]))
+print(osszegzes({1,2,3,4,4}))
+print(osszegzes((1,2,3,4,4)))
+
+print(sum(lista))
+
+# átlag pl: sum(lista)/len(lista)
+def atlag(l):
+    db = 0
+    osszeg = 0
+    for elem in l:
+        osszeg += elem
+        db += 1
+    return osszeg / db
+print(atlag([2,4]))
+print(atlag(lista))
