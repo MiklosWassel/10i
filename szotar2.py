@@ -77,4 +77,4 @@ for k,e in betuk.items():
     if e > max:
         max = e
         gyakori = k
-print(max,k)
+print(max,gyakori)
